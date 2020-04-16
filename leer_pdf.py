@@ -163,8 +163,8 @@ def grupo3():
 def run():
     """ """
     grupo1()
-    #grupo2()
-    #grupo3()
+    grupo2()
+    grupo3()
 
 if __name__ == "__main__":
     run()
