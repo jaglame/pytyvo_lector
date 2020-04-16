@@ -140,6 +140,7 @@ def generar_grupo(pdfpath):
     print("*** %s ***" % pdfpath)
     f = pdf_to_text(pdfpath, first=1, last=None)
     for record in create_records(f):
+        count += 1
         print(record)
 
     f.close()
